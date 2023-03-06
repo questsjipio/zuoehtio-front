@@ -1,0 +1,37 @@
+.homePageIWantTo {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.homePageButton {
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #1098ad;
+    color: #1098ad;
+
+    border-radius: 10px;
+    text-align: left;
+    width: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.homePageButton:hover {
+    background-color: #1098ad;
+}
+
+.homePageButton:hover,
+.homePageButton:hover .homePageButtonTitle,
+.homePageButton:hover .homePageButtonDesc {
+    color: white;
+    cursor: pointer
+}
+
+.homePageButtonTitle {
+    font-weight: bold;
+}
+
+.homePageButtonDesc {
+    color: black;
+}

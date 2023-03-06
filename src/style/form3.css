@@ -1,0 +1,76 @@
+.formOuterSection {
+    margin-bottom: 30px;
+}
+
+.formSectionGeneral3 {
+    align-items: center;
+    column-gap: 10px;
+    display: grid;
+    grid-template-columns: 125px 1fr 125px 1fr;
+    padding: 10px;
+    padding-bottom: 0px;
+    row-gap: 10px;
+}
+
+.formSectionGeneral3 label,
+.workWithDiffAbled label {
+    font-weight: bold;
+}
+
+.subSectionTitle {
+    margin: 10px;
+}
+
+.companyDiffAbledExp,
+.serviceOptionsList,
+.intentionOptionsList,
+.projectDescription {
+    column-gap: 10px;
+    row-gap: 10px;
+    text-align: left;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.companyDiffAbledExp table,
+.serviceOptionsList table,
+.intentionOptionsList table {
+    text-align: center;
+    border-spacing: 0px;
+}
+
+.companyDiffAbledExp table,
+.companyDiffAbledExp table th,
+.companyDiffAbledExp table td,
+.serviceOptionsList table,
+.serviceOptionsList table th,
+.serviceOptionsList table td,
+.intentionOptionsList table,
+.intentionOptionsList table th,
+.intentionOptionsList table td {
+    border-style: solid;
+    border-color: rgb(178, 216, 216);
+    border-width: 1px;
+}
+
+
+.companyDiffAbledExp table th,
+.companyDiffAbledExp table td,
+.serviceOptionsList table th,
+.serviceOptionsList table td,
+.intentionOptionsList table th,
+.intentionOptionsList table td {
+    width: 125px;
+    padding: 5px;
+}
+
+.companyDiffAbledExp table th,
+.serviceOptionsList table th,
+.intentionOptionsList table th {
+    vertical-align: top;
+    font-weight: 100;
+}
+
+.workWithDiffAbled {
+    margin: 10px;
+}

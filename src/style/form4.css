@@ -1,0 +1,49 @@
+.formSectionGeneral4 {
+    align-items: top;
+    column-gap: 10px;
+    display: grid;
+    grid-template-columns: 125px 1fr;
+    padding: 10px;
+    row-gap: 10px;
+}
+
+.formSectionGeneral4 label {
+    font-weight: bold;
+}
+
+.formSectionGeneral4 select {
+    width: 125px;
+}
+
+.formSectionGeneral4 button:disabled,
+.formSectionGeneral4 input:disabled,
+.formSectionGeneral4 select:disabled,
+.formSectionGeneral4 textarea:disabled {
+    color: black;
+    opacity: 1;
+}
+
+.formFinalActionButtonsDiv {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.textareaBriefTechnicalRequirements {
+    width: 500px;
+    height: 100px;
+}
+
+.formEditButton4 {
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.formResetButton4 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.formSubmitButton4 {
+    margin-left: 10px;
+    margin-right: auto;
+}

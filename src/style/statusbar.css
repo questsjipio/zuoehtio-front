@@ -1,0 +1,27 @@
+.statusBar {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2.5px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+}
+
+.statusBarSuccess {
+    background-color: rgb(224, 255, 224);
+    border-color: darkgreen;
+    color: darkgreen;
+}
+
+.statusBarError {
+    background-color: rgb(255, 224, 224);
+    border-color: darkred;
+    color: darkred;
+}
+
+.statusBarClose {
+    display: inline-block;
+    margin-left: 20px;
+}
